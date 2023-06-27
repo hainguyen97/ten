@@ -27,8 +27,6 @@ jobs:
           
       - name: Copy folder
         run: |
-          mkdir ${{ github.workspace }}/destination
-          cp -R ${{ github.workspace }}/destination "C:\Users\Hai"
-          echo 1111111
-          "C:/Program Files (x86)/Inno Setup 6/ISCC.exe" ${{ github.workspace }}\InnoSetup\Install.iss
+         
+          "C:/Program Files (x86)/Inno Setup 6/ISCC.exe" "C:\\Users\\Hai\\actions-runner\\_work\\ten\\ten\\InnoSetup\\Install.iss"
           
