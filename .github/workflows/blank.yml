@@ -29,3 +29,7 @@ jobs:
         run: |
           mkdir ${{ github.workspace }}/destination
           cp -R ${{ github.workspace }}/destination "C:\Users\Hai"
+        
+      - name: excute inno setup
+         run:|
+          "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "C:\Users\Hai\Desktop\TakenakaRevitApp\InnoSetup\Install.iss"
