@@ -28,4 +28,3 @@ jobs:
       - name: Copy folder
         run: |
           mkdir ${{ github.workspace }}/destination
-          cp -R ${{ github.workspace }}/source ${{ github.workspace }}/destination
