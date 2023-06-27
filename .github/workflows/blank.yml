@@ -27,6 +27,6 @@ jobs:
           
       - name: Copy folder
         run: |
-         C:/Program Files (x86)/Inno Setup 6/ISCC.exe C:\\Users\\Hai\\actions-runner\\_work\\ten\\ten\\InnoSetup\\Install.iss
+         Start "C:/Program Files (x86)/Inno Setup 6/ISCC.exe"
 
           
