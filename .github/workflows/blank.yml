@@ -28,7 +28,6 @@ jobs:
       - name: Copy folder
         run: |
           Start "C:\Users\HC_04\code\Takenaka\InnoSetup\Install.iss"
-          "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "C:\Users\HC_04\code\Takenaka\InnoSetup\Install.iss"
          
 
           
