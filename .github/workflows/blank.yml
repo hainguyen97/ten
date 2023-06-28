@@ -27,7 +27,7 @@ jobs:
           
       - name: Copy folder
         run: |
-         "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "C:\Users\Hai\Desktop\TakenakaRevitApp\InnoSetup\Install.iss"
+         "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "C:\Users\HC_04\code\Takenaka\InnoSetup\Install.iss"
          
 
           
