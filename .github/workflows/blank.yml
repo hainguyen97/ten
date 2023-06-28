@@ -27,7 +27,7 @@ jobs:
           
       - name: Build inno
         run: |
-          cp -R "C:\Program Files (x86)\Inno Setup 6" "C:\Users\HC_04\actions-runner\_work\ten\ten\"
+          cp -R "C:\Program Files (x86)\Inno Setup 6" ${{ github.workspace }}
           & '.\Inno Setup 6\ISCC.exe' '${{ github.workspace }}/InnoSetup/Install.iss'
           
          
