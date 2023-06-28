@@ -25,10 +25,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
           
-      - name: Copy folder
+      - name: Build inno
         run: |
-          Start "C:\Users\HC_04\code\Takenaka\InnoSetup\Install.iss"
-          "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" ${{ github.workspace }}/InnoSetup/Install.iss
+          "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" ${{ github.workspace }}\InnoSetup/Install.iss
          
 
           
